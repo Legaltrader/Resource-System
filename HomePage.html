@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Academic Resource System</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <img
+            alt="Logo"
+            src="https://appproject.dhiwise.com/dhiwise-logo.png?c=&v=" style="width: 0px; height: 0px; display: none"
+            style="width: 0px; height: 0px; display: none"
+        />
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    </head>
+    <body>
+        <div
+            class="relative h-[5455px] w-full bg-[url(../public/images/img_home_page.png)] bg-cover bg-no-repeat md:h-auto"
+        >
+        <img src="public/images/img_rectangle_1.png" alt="image" class="h-[5461px] object-cover md:p-5" />
+        <div class="container-sm absolute bottom-0 left-0 right-0 top-0 my-auto h-max md:p-5">
+            <div class="flex flex-col items-center">
+                <header class="flex w-[91%] items-end gap-[46px] md:w-full md:flex-col">
+                    <img src="public/images/img_header_logo.png" alt="headerlogo" class="h-[85px] w-[85px] object-cover" />
+                    <ul class="flex flex-wrap items-center gap-12">
+                        <li>
+                            <a href="#">
+                                <h5 class="size-lg heading ui !text-black-900">Home</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h5 class="size-lg heading ui !text-black-900">contact</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h5 class="size-lg heading ui !text-black-900">Pages</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h5 class="size-lg heading ui !text-black-900">Courses</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h5 class="size-lg heading ui !text-black-900">Features</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h5 class="size-lg heading ui !text-black-900">Blog</h5>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#">
+                        <img src="public/images/img_rewind.svg" alt="rewind" class="h-[30px] w-[30px] md:w-full" />
+                    </a>
+                    <div class="flex w-[27%] justify-between gap-5 md:w-full">
+                        <button	
+                          class="flex h-[43px] min-w-[145px] flex-row items-center justify-center rounded-md border-[3px] border-solid border-red-A700 px-8 text-center text-xl font-bold text-black-900 sm:px-5"
+                        >
+                            SIGN IN
+                        </button>
+                        <button
+                            class="flex h-[43px] min-w-[145px] flex-row items-center justify-center rounded-md bg-red-A700 pl-[35px] pr-7 text-center text-xl font-bold text-white-A700 sm:px-5"
+                        >
+                          SIGN UP
+                        </button>
+                    </div>
+                </header>
+                <div class="relative mt-[19px] h-[495px] self-stretch md:h-auto">
+                      <div class="flex w-full flex-col items-center">
+                        <div
+                          class="flex h-[400px] items-start justify-center self-stretch bg-[url(../public/images/img_group_106.png)] bg-cover bg-no-repeat px-14 py-[134px] md:h-auto md:p-5"
+                        >
+                            <div class="mb-[25px] flex flex-col items-center gap-0.5">
+                                <h1 class="size-7xl heading ui">Find the Best Courses</h1>
+                                <h2 class="size-lg heading ui">All the top courses- from our school and the best of our lecturers</h2>
+                            </div>
+                        </div>
+                        <div
+                          class="relative mt-[-42px] h-[137px] w-[84%] bg-black-900 blur-[40.00px] backdrop-opacity-[0.5]"
+                        ></div>
+                    </div>
+                    <div
+                        class="absolute bottom-[16.00px] left-0 right-0 m-auto flex w-[88%] items-end justify-between gap-5 bg-white-A700 p-[31px] md:relative md:flex-col sm:p-5"
+                    >
+                        <select
+                          name="allgst"
+                          class="mb-[13px] ml-[21px] flex w-[11%] gap-px bg-[url(../public/images/img_arrowdown.svg)] bg-[length:24px] bg-no-repeat pr-[29px] text-left text-2xl font-semibold text-black-900 md:ml-0 md:w-full sm:pr-5"
+                        >
+                          <option value="option1">Option1</option>
+                          <option value="option2">Option2</option>
+                          <option value="option3">Option3</option>
+                        </select>
+                        <select
+                            name="all department"
+                            class="mb-[13px] flex w-[19%] gap-px bg-[url(../public/images/img_arrowdown.svg)] bg-[length:24px] bg-no-repeat py-px pr-[29px] text-left text-2xl font-semibold text-black-900 md:w-full sm:pr-5"              
+                        >
+                            <option value="option1">Option1</option>
+                            <option value="option2">Option2</option>
+                            <option value="option3">Option3</option>
+                        </select>
+                        <div class="mr-[13px] flex items-center gap-7 md:mr-0 sm:flex-col">                
+                            <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                  
+                                <div class="mb-[13px] flex items-center gap-[9px] self-end pr-7 sm:pr-5">                    
+                                    <h3 class="size-3xl heading ui !font-semibold !text-black-900">All Courses</h3>                    
+                                    <img src="public/images/img_arrowdown.svg" alt="arrowdown" class="h-[24px] w-[24px] self-end" />                  
+                                </div>                
+                            </a>                
+                            <button                  
+                                class="flex h-[61px] min-w-[353px] flex-row items-center justify-center rounded-md bg-red-A700 px-[30px] text-center text-xl font-bold text-white-A700 sm:px-5"                
+                            >                  
+                                SEARCH FOR YOUR COURSES                
+                            </button>              
+                        </div>            
+                    </div>          
+                </div>          
+                <div class="mt-[41px] flex w-[88%] flex-col items-center md:w-full">            
+                    <div class="flex w-[70%] gap-[91px] md:w-full md:flex-col">              
+                        <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                
+                            <div class="flex w-[18%] md:w-full">                  
+                                <div class="flex w-full flex-col items-end gap-[3px]">                    
+                                    <div class="relative mr-[7px] h-[83px] w-[74%] md:mr-0">                      
+                                        <div                        
+                                            class="absolute left-[0.00px] top-[0.00px] m-auto h-[77px] w-[71%] rounded-[38px] bg-light_green-A700"                      
+                                        ></div>                      
+                                        <img                        
+                                            src="public/images/img_icon_park_code_computer.svg"                        
+                                            alt="iconparkcode"                        
+                                            class="absolute bottom-[0.00px] right-[0.00px] m-auto h-[71px] w-[71px]"                      
+                                        />
+                                    </div>
+                                    <h4 class="size-lg heading ui !text-black-900">Natural Science</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="flex flex-1">
+                            <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank"></a>
+                                <div class="flex w-full flex-col items-start gap-3">
+                                    <div class="flex w-[85%] items-center self-end md:w-full">
+                                        <div class="h-[77px] flex-1 rounded-[38px] bg-light_green-A700"></div>
+                                        <img
+                                            src="public/images/img_user.svg"
+                                            alt="user"
+                                            class="relative ml-[-31px] h-[53px] w-[45%] self-end"
+                                        />
+                                    </div>
+                                    <h5 class="size-lg heading ui !text-black-900">Engineering</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">
+                            <div class="flex w-[26%] md:w-full">                  
+                                <div class="flex w-full flex-col items-center gap-[9px]">                    
+                                    <div class="flex w-[48%] items-center md:w-full">                      
+                                        <div class="h-[77px] flex-1 rounded-[38px] bg-light_green-A700"></div>                      
+                                        <img                        
+                                            src="public/images/img_television.svg"                        
+                                            alt="television"                        
+                                            class="relative ml-[-25px] h-[55px] w-[55px] self-end"                      
+                                        />                    
+                                    </div>                    
+                                    <h6 class="size-lg heading ui !text-black-900">Environmental Science</h6>                  
+                                </div>                
+                            </div>              
+                        </a>              
+                        <div class="flex flex-1">                
+                            <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                  
+                                <div class="flex w-full flex-col items-end gap-[5px]">                    
+                                    <div class="relative mr-[9px] h-[84px] w-[85%] md:mr-0">                      
+                                        <div                        
+                                            class="absolute left-[0.00px] top-[0.00px] m-auto h-[77px] w-[76%] rounded-[38px] bg-light_green-A700"                      
+                                        ></div>                      
+                                        <img                        
+                                            src="public/images/img_material_symbol.svg"                        
+                                            alt="materialsymbol"                        
+                                            class="absolute bottom-[0.00px] right-[0.00px] m-auto h-[65px] w-[65px]"                      
+                                        />                    
+                                    </div>                    
+                                    <h5 class="size-lg heading ui !text-black-900">Management</h5>                  
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-12 grid grid-cols-3 justify-center gap-7 self-stretch md:grid-cols-2 sm:grid-cols-1">
+                        <div class="flex w-full flex-col items-center bg-red-A700 pb-[15px]">
+                            <img
+                                src="public/images/img_rectangle_8.png"
+                                alt="softwareenginee"
+                                class="h-[329px] w-full object-cover md:h-auto"
+                            />
+                            <h4 class="size-3xl heading ui mt-[26px] text-center">Software Engineering</h4>
+                            <h5 class="size-xl heading ui mt-1.5 w-[51%] text-center !text-black-900 md:w-full md:p-5">
+                                Department of <br />Computer Science
+                            </h5>
+                            <h5 class="size-xl heading ui mt-[7px] text-center !text-light_green-A700">300 Level</h5>
+                            <h5 class="size-xl heading ui mt-[9px] text-center">Mr. Ugwu Ejike</h5>
+                        </div>
+                        <div class="flex w-full flex-col bg-red-A700 pb-[15px]">
+                            <div class="flex flex-col items-center">
+                                <img
+                                    src="public/images/img_rectangle_9.png"
+                                    alt="image"
+                                    class="h-[329px] w-full object-cover md:h-auto"
+                                />
+                            <h4 class="size-3xl heading ui mt-[26px] text-center">Public Sector Accounting</h4>
+                            <h5 class="size-xl heading ui mt-1.5 w-[41%] text-center !text-black-900 md:w-full">
+                              Department of <br />Accounting
+                            </h5>
+                            <h5 class="size-xl heading ui mt-[7px] text-center !text-light_green-A700">400 Level</h5>
+                            <h5 class="size-xl heading ui mt-[9px] text-center">Mr. Vincent Agbachi</h5>
+                        </div>
+                    </div>
+                    <div class="flex w-full flex-col items-center bg-red-A700 pb-[17px]">
+                        <img 
+                        src="public/images/img_rectangle_10.png"                  
+                        alt="image"
+                        class="h-[329px] w-full object-cover md:h-auto"
+                        />
+                        <h4 class="size-3xl heading ui mt-[26px] text-center">History of Architecture</h4>
+                        <h5 class="size-xl heading ui mt-1.5 w-[41%] text-center !text-black-900 md:w-full md:p-5">                  
+                            Department of <br />Architecture                
+                        </h5>
+                        <h5 class="size-xl heading ui mt-[7px] text-center !text-light_green-A700">200 Level</h5>                
+                        <h5 class="size-xl heading ui mt-[7px] text-center">Arc. T.C Aneke</h5>
+                    </div>
+                    <div class="flex w-full flex-col items-center bg-red-A700 pb-[15px]">                
+                        <img     
+                            src="public/images/img_rectangle_19.png"                  
+                            alt="image"                  
+                            class="h-[329px] w-full object-cover md:h-auto"                
+                        />                
+                        <h4 class="size-3xl heading ui mt-[26px] text-center">Thermodynamics</h4>                
+                        <h5 class="size-xl heading ui mt-1.5 w-[66%] text-center !text-black-900 md:w-full md:p-5">                  
+                            Department of <br />Mechanical Engineering                
+                        </h5>                
+                        <h5 class="size-xl heading ui mt-[7px] text-center !text-light_green-A700">200 Level</h5>                
+                        <h5 class="size-xl heading ui mt-[9px] text-center">Engr. Ani Afam</h5>              
+                    </div>              
+                    <div class="flex w-full flex-col items-start bg-red-A700 pb-[17px]">                
+                        <img                  
+                            src="public/images/img_rectangle_17.png"                  
+                            alt="image"                  
+                            class="h-[329px] w-full object-cover md:h-auto"                
+                        />                
+                        <h4 class="size-3xl heading ui mt-[26px] self-center text-center">Sociology of Urbanization</h4>                
+                        <h5                  
+                            class="size-xl heading ui ml-24 mt-1.5 w-[55%] text-center !text-black-900 md:ml-0 md:w-full md:p-5"                
+                        >                  
+                            Department of <br />Sociology                
+                        </h5>                
+                        <h5 class="size-xl heading ui ml-[122px] mt-[7px] text-center !text-light_green-A700 md:ml-0">                  
+                            300 Level                
+                        </h5>                
+                        <h5 class="size-xl heading ui ml-[61px] mt-[7px] text-center md:ml-0">Prof. Ezeh Christian .I.</h5>              
+                    </div>              
+                    <div class="flex w-full flex-col items-start gap-[7px] bg-red-A700 pb-1.5">
+                        <img                  
+                            src="public/images/img_rectangle_18.png"                  
+                            alt="image"                  
+                            class="h-[329px] w-full object-cover md:h-auto"                
+                        />                
+                        <h4 class="size-3xl heading ui ml-[51px] w-[76%] text-center md:ml-0 md:w-full md:p-5">                  
+                            Information Security <br />Fundametals                
+                        </h4>                
+                        <h5 class="size-xl heading ui ml-[79px] w-[64%] text-center !text-black-900 md:ml-0 md:w-full md:p-5">                  
+                            Department of <br />Computer Science                
+                        </h5>                
+                        <h5 class="size-xl heading ui ml-[123px] text-center !text-light_green-A700 md:ml-0">400 Level</h5>                
+                        <h5 class="size-xl heading ui ml-[71px] text-center md:ml-0">Prof. Arinze Nwaeze</h5>              
+                    </div>            
+                </div>            
+                <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">              
+                    <button                
+                    class="mt-28 flex h-[66px] min-w-[188px] flex-row items-center justify-center rounded-[15px] border border-solid border-red-A700 px-[21px] text-center text-2xl font-bold text-red-A700 sm:px-5"              
+                    >                
+                        LOAD MORE              
+                    </button>            
+                </a>          
+            </div>          
+            <div            
+                class="mt-[97px] flex h-[400px] items-start justify-center self-stretch bg-[url(../public/images/img_group_163.png)] bg-cover bg-no-repeat px-14 py-[111px] md:h-auto md:p-5"          
+            >            
+                <div class="mb-2 flex w-[83%] justify-center md:w-full">              
+                    <div class="flex w-full flex-col items-center">                
+                        <div class="flex flex-wrap self-start">                  
+                            <h1 class="size-8xl heading ui !text-light_green-900">781</h1>
+                            <h1 class="size-8xl heading ui ml-[82px] !text-light_green-900">894</h1>
+                            <h1 class="size-8xl heading ui ml-[123px] !text-light_green-900">803</h1>
+                            <h1 class="size-8xl heading ui ml-[151px] !text-light_green-900">873</h1>
+                        </div>
+                        <div class="mr-[35px] flex w-[90%] justify-between gap-5 self-end md:mr-0 md:w-full">                  
+                            <div class="h-[6px] w-[22px] rounded-[3px] bg-red-A700_01"></div>                  
+                            <div class="h-[6px] w-[22px] rounded-[3px] bg-red-A700_01"></div>                  
+                            <div class="h-[6px] w-[22px] rounded-[3px] bg-red-A700_01"></div>                  
+                            <div class="h-[6px] w-[22px] rounded-[3px] bg-red-A700_01"></div>                
+                        </div>                
+                        <div class="mt-[21px] flex flex-wrap">                  
+                            <h4 class="size-4xl heading ui self-end !text-red-A700">Ratings</h4>                  
+                            <h4 class="size-4xl heading ui ml-[140px] self-start text-center !text-red-A700">Students</h4>                  
+                            <h4 class="size-4xl heading ui ml-[187px] self-end text-center !text-red-A700">Projects</h4>                  
+                            <h4 class="size-4xl heading ui ml-[216px] self-start text-center !text-red-A700">Courses</h4>                
+                        </div>              
+                    </div>            
+                </div>          
+            </div>          
+            <div class="mt-[134px] flex w-[23%] flex-col items-center gap-[25px] md:w-full">            
+                <div class="flex w-[32%] gap-1.5 md:w-full">              
+                    <div class="h-[6px] flex-1 rounded-[3px] bg-red-A700_01"></div>              
+                    <div class="h-[6px] w-[22px] rounded-[3px] bg-red-A700_01"></div>            
+                </div>            
+                <h1 class="size-6xl heading ui text-center !text-red-A700">Our Departments</h1>          
+            </div>          
+            <div class="mt-7 grid w-[88%] grid-cols-4 justify-center gap-[22px] md:grid-cols-2 sm:grid-cols-1">            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                
+                        <img                  
+                            src="public/images/img_rectangle_31.png"                  
+                            alt="accountingimage"                  
+                            class="h-[276px] w-full object-cover"                
+                        />
+                    </a>
+                    <h4 class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max !text-black-900">                
+                        Accounting              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                
+                        <img src="public/images/img_rectangle_32.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    </a>              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >                
+                        Architecture              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_35.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >                
+                        Banking & Finance              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_36.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >                
+                        Biochemistry              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto"></div>
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                
+                        <img src="public/images/img_rectangle_37.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    </a>              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-[33%] left-0 right-0 m-auto w-[63%] text-center !text-black-900"              
+                    >                
+                        Business <br />Administration              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_38.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-[33%] left-0 right-0 m-auto w-[51%] text-center !text-black-900"              
+                    >                
+                        Chemical <br />Engineering              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_39.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-[33%] left-0 right-0 m-auto w-[51%] text-center !text-black-900"              
+                    >                
+                        Commputer<br />Engineering              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                
+                        <img src="public/images/img_rectangle_40.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    </a>              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >
+                        Computer Science
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_41.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >                
+                        Economics              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                
+                        <img src="public/images/img_rectangle_42.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    </a>              
+                    <h5                
+                        class="size-2xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-[86%] text-center !font-bold !text-black-900"              
+                    >                
+                        Electrical/ Electronics <br />Engineering              
+                    </h5>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">                
+                        <img src="public/images/img_rectangle_43.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    </a>              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >                
+                        English Language              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_44.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"
+                    >
+                        Estate Management
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_45.png" alt="image" class="h-[276px] w-full object-cover" />
+                    <h4
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >
+                        Industrial Chemistry
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_46.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h5                
+                        class="size-2xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-[91%] text-center !font-bold !text-black-900"              
+                    >                
+                        Industrial Relations <br />&<br />Personnel Management              
+                    </h5>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_47.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute left-0 right-0 top-[42%] m-auto w-max text-center !text-black-900"              
+                    >                
+                        Marketing              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_48.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >                
+                        Mass Communication              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_49.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                    class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-[58%] text-center !text-black-900"              
+                    >                
+                        Mathematics <br />and Statistics
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">
+                        <img src="public/images/img_rectangle_50.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    </a>
+                    <h4>
+                        <div class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-[51%] text-center !text-black-900">              
+                            Mechanical <br />Engineering              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_51.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >                
+                        Microbiology              
+                    </h4>            
+                </div>            
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_69.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >
+                        Political Science 
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_68.png" alt="image" class="h-[276px] w-full object-cover" />             
+                    <h4
+                        class="size-3xl heading ui absolute left-0 right-0 top-[42%] m-auto w-max text-center !text-black-900"              
+                    >
+                        Psychology
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_67.png" alt="image" class="h-[276px] w-full object-cover" />
+                    <h4                
+                        class="size-3xl heading ui absolute left-0 right-0 top-[41%] m-auto w-max text-center !text-black-900"              
+                    >
+                        Public Administration
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank"></a>
+                        <img src="public/images/img_rectangle_66.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    </a>              
+                    <h4
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-center !text-black-900"              
+                    >
+                        Sociology
+                    </h4>
+                </div>
+                <div class="relative h-[276px] w-full md:h-auto">              
+                    <img src="public/images/img_rectangle_65.png" alt="image" class="h-[276px] w-full object-cover" />              
+                    <h4                
+                        class="size-3xl heading ui absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-[75%] text-center !text-black-900"              
+                    >                
+                        Urban & <br />Regional Planning              
+                    </h4>            
+                </div>          
+            </div>          
+            <div class="mt-[232px] flex w-[83%] items-start justify-between gap-5 md:w-full md:flex-col">            
+                <div class="flex flex-col items-start gap-1">              
+                    <h4 class="size-4xl heading ui text-center !text-red-A700">Need to help?</h4>              
+                    <h1 class="size-6xl heading ui !text-black-900">Get in touch we would call you</h1>            
+                </div>            
+                <div class="flex gap-[23px]">              
+                    <button                
+                        class="flex h-[65px] min-w-[183px] flex-row items-center justify-center border border-solid border-red-A700 px-[21px] text-center text-2xl font-bold text-red-A700 sm:px-5"              
+                    >                
+                        CHECK FAQ              
+                    </button>              
+                    <button                
+                        class="flex h-[65px] min-w-[203px] flex-row items-center justify-center bg-red-A700 px-[22px] text-center text-2xl font-bold text-white-A700 sm:px-5"              
+                    >                
+                        CONTACT US              
+                    </button>            
+                </div>
+            </div>          
+            <footer class="mt-[43px] flex items-start justify-end self-stretch bg-lime-800 p-[39px] sm:p-5">            
+                <div class="mb-[17px] mr-[18px] flex w-[69%] flex-col items-start gap-[29px] md:w-full">
+                    <p class="size-md text ui mr-[13px] w-[62%] self-end text-right !text-white-A700 md:mr-0 md:w-full">                Address: Caritas University Amorji-Nike Emene, Enugu<br />Contacts 08063589115, 07085308771 07014431183,
+                        Address: Caritas University Amorji-Nike Emene, Enugu<br />Contacts 08063589115, 07085308771 07014431183,
+                        08075834681<br />For detailed contact visit<br />info@caritasuni.edu.ng enquiries@caritasuni.edu.ng              
+                    </p>              
+                    <div class="ml-[33px] flex items-end self-stretch md:ml-0 md:flex-col"></div>
+                        
+                
+                      
+          
+          
+
+                      
+                                    
+    
+          
+          
+          
+                        
+                    
+        
+    
+
+

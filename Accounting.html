@@ -1,0 +1,562 @@
+<!doctype html>
+<body lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Academic Resource System</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <img
+            alt="Logo"
+            src="https://appproject.dhiwise.com/dhiwise-logo.png?c=&v=" style="width: 0px; height: 0px; display: none"
+            style="width: 0px; height: 0px; display: none"
+        />
+        <link rel="stylesheet" type="text/css" href="./css/index.css" /> 
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    </head>
+<div>
+    <div class="h-[4427px] w-full bg-[url(../public/images/img_home_png)] bg-cover bg-no-repeat md:h-auto">
+        <div class="container-sm bg-white-A700 md:p-5">
+            <div class="flex flex-col">
+                <div class="flex w-[95%] items-start gap-[42px] md:w-full md:flex-col">
+                    <aside
+                        class="!sticky top-0 flex h-screen w-[282px] flex-col overflow-auto bg-[url(../public/images/img_group_65.png)] bg-cover bg-no-repeat py-[41px] md:hidden md:py-5"
+                    >
+                        <div class="mb-[3604px] flex flex-col items-center gap-8 self-stretch">
+                            <img
+                                src="public/images/img_sidebar_logo.png"
+                                alt="sidebarlogo"
+                                class="h-[84px] w-[85px] object-cover"
+                            />
+                            <ul class="flex w-full flex-col gap-[0.49px] self-stretch p-0">
+                                <li class "w-full">
+                                    <a
+                                        class="flex cursor-pointer items-center gap-[9px] border-b-[3px] border-t-[3px] border-transparent p-3.5 font-semibold text-black-900 hover:border-red-A700"
+                                    >
+                                        <img
+                                            src="public/images/img_material_symbol_black_900.svg" 
+                                            alt="materialsymbol" 
+                                            class="h-[36px] w-[36px]" 
+                                        />
+                                        <span> Home </span>
+                                    </a>
+                                </li>
+                            <li class="w-full">
+                                <a
+                                    class="flex cursor-pointer items-center gap-[9px] border-b-[3px] border-t-[3px] border-transparent p-3.5 font-semibold text-black-900 hover:border-red-A700"
+                                >
+                                    <img src="public/images/img_noto_books.svg" alt="notobooks" class="h-[35px] w-[36px]" /> 
+                                    <span> View Departments</span>
+                                </a>
+                            </li>
+                            <li class="w-full">
+                                <a
+                                    class="flex cursor-pointer items-center gap-[9px] border-b-[3px] border-t-[3px] border-transparent p-3.5 font-semibold text-black-900 hover:border-red-A700"
+                                >
+                                    <img
+                                        src="public/images/img_logos_discourse_icon.svg" 
+                                        alt="logosdiscourse" 
+                                        class="h-[35px] w-[36px]" 
+                                    />
+                                    <span> View Courses</span>
+                                </a>
+                            </li>
+                            <li class="w-full">
+                                <a
+                                class="flex cursor-pointer items-center gap-[9px] border-b-[3px] border-t-[3px] border-transparent p-3.5 font-semibold text-black-900 hover:border-red-A700"
+                                >
+                                  <img src="public/images/img_tabler_activity.svg" alt="tableractivity" class="h-[36px] w-[36px]" />
+                                  <span> Activity</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </aside>
+                        <div class="mt-12 flex flex-1 flex-col items-start md:self-stretch">
+                          <div class="container-xs self-stretch md:p-5">
+                            <div class="flex flex-col items-start">
+                              <div class="flex items-start justify-between gap-5 self-stretch">
+                                <h1 class="size-5xl heading ui !text-red-A700">E-Resource System</h1>
+                                <button
+                                  class="flex h-[40px] min-w-[196px] flex-row items-center justify-center gap-[9px] rounded-[5px] bg-white-A700 pl-[15px] pr-[25px] text-center text-base font-semibold text-gray-700 shadow-xs sm:pr-5"
+                                >
+                                  <img src="public/images/img_rewind_black_900.svg" alt="rewind" class="h-[16px] w-[16px]" />
+                                  <span> Search Courses</span>
+                                </button>
+                              </div>
+                              <h2 class="size-lg heading ui mt-[7px] !text-pink-900">Department of Accounting</h2>
+                              <h3 class="size-lg heading ui !text-pink-900">400 Level</h3>
+                            </div>
+                          </div>
+                          <div class="mt-2 grid grid-cols-4 gap-[42px] self-stretch md:grid-cols-2 sm:grid-cols-1">
+                            <div class="flex w-full flex-col justify-center bg-pink-900">
+                              <div class="flex flex-col items-start">
+                                <img
+                                    src="public/images/img_rectangle_300.png"
+                                    alt="userimage"
+                                    class="h-[224px] w-full object-cover md:h-auto"
+                                />
+                                <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                    <button
+                                        class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                    >
+                                        ACC
+                                    </button>
+                                    <h4 class="size-s heading ui w-[80%]">Advanced Financial <br />Accounting and <br />Reporting</h4>
+                                </div>
+                                <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Desmond</p>
+                            </div>
+                        </div>
+                        <div class="flex w-full flex-col justify-center bg-pink-900 pb-[9px]"></div>
+                        <div class="flex flex-col items-start">
+                            <img
+                              src="public/images/img_rectangle_303.png"
+                              alt="userimage"
+                              class="h-[224px] w-full object-cover md:h-auto"
+                            />
+                            <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                <button
+                                    class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                    >
+                                    ACC
+                                  </button>
+                                  <h5 class="size-s heading ui w-[80%]">Management Accounting</h5>
+                                </div>
+                                <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Agu C. I</p>
+                              </div>
+                            </div>
+                            <div class="flex w-full flex-col justify-center bg-pink-900 pb-2.5">
+                              <div class="flex flex-col items-start">
+                                <img
+                                  src="public/images/img_rectangle_306.png"
+                                  alt="userimage"
+                                  class="h-[224px] w-full object-cover md:h-auto"
+                                />
+                                <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                  <button
+                                    class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                  >
+                                    ACC
+                                  </button>
+                                  <h6 class="size-s heading ui w-[80%]">Auditing, Assurance <br />and Investigation</h6>
+                                </div>
+                                <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Kate Ene</p>
+                              </div>
+                            </div>
+                            <div class="flex w-full flex-col justify-center bg-pink-900 pb-[9px]">
+                                <div class="flex flex-col items-start">
+                                    <img
+                                        src="public/images/img_rectangle_312.png"
+                                        alt="userimage"
+                                        class="h-[224px] w-full object-cover md:h-auto"
+                                    />
+                                    <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                        <button
+                                          class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                        >
+                                          ACC
+                                        </button>
+                                        <p class="size-s heading ui w-[80%]">Advanced Taxation <br />and Accounts</p>
+                                      </div>
+                                      <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Bobby Nwankwo</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col justify-center bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-start">
+                                        <img
+                                            src="public/images/img_rectangle_309.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%]">Public Sector Accounting</p>
+                                        </div>
+                                        <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Agbachi</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col justify-center bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-start">
+                                        <img
+                                            src="public/images/img_rectangle_315.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%]">Financial Management</p>
+                                        </div>
+                                        <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Hillary</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col justify-center bg-pink-900 pb-2.5">
+                                    <div class="flex flex-col items-start">
+                                        <img
+                                            src="public/images/img_rectangle_318.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%]">Business Policy</p>
+                                        </div>
+                                        <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Kenneth</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col justify-center bg-pink-900 pb-2.5">
+                                    <div class="flex flex-col items-start">
+                                        <img
+                                            src="public/images/img_rectangle_321.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[7px] flex w-[81%] items-start gap-[5px] md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%] self-end">Advanced Financial <br />Accounting</p>
+                                        </div>
+                                        <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Melletus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-[54px] flex flex-col items-start gap-2 self-stretch">
+                                <h5 class="size-lg heading ui !text-pink-900">300 Level</h5>
+                                <div class="grid grid-cols-4 gap-[42px] self-stretch md:grid-cols-2 sm:grid-cols-1">
+                                  <div class="flex w-full flex-col bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                            src="public/images/img_rectangle_324.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[9px] flex w-[81%] gap-[5px] self-start md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center self-start rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                        </button>
+                                        <p class="size-s heading ui w-[80%]">Analysis of Business <br />Decision</p>
+                                    </div>
+                                    <p class="size-xs text ui">Dr. Bobby Nwankwo</p>
+                                </div>
+                            </div>
+                            <div class="flex w-full flex-col bg-pink-900 pb-[9px]">
+                                <div class="flex flex-col items-center">
+                                    <img
+                                        src="public/images/img_rectangle_327.png"
+                                        alt="userimage"
+                                        class="h-[224px] w-full object-cover md:h-auto"
+                                    />
+                                    <div class="ml-[9px] mt-[9px] flex w-[81%] gap-[5px] self-start md:ml-0 md:w-full">
+                                        <button
+                                          class="flex h-[32px] min-w-[32px] flex-row items-center justify-center self-start rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                        >
+                                          ACC
+                                        </button>
+                                        <p class="size-s heading ui w-[80%] self-end">
+                                          Accounting Ethics and <br />Corporate Governance
+                                        </p>
+                                      </div>
+                                      <p class="size-xs text ui">Dr. Kate Ene</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                            src="public/images/img_rectangle_330.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[9px] flex w-[81%] gap-[5px] self-start md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center self-start rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                              ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%] self-end">Advanced Cost <br />Accounting</p>
+                                        </div>
+                                        <p class="size-xs text ui">Dr. Agu C.I</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                            src="public/images/img_rectangle_333.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[9px] flex w-[81%] gap-[5px] self-start md:ml-0 md:w-full">
+                                            <button
+                                              class="flex h-[32px] min-w-[32px] flex-row items-center justify-center self-start rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                              ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%] self-end">
+                                              Executorship, Trusteeship<br />and Bankruptcy laws and<br />Accounts
+                                            </p>
+                                        </div>
+                                        <p class="size-xs text ui">Dr. Bobby Nwankwo</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-[9px]">                    
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                            src="public/images/img_rectangle_336.png"
+                                            alt="userimage"                        
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[9px] flex w-[81%] gap-[5px] self-start md:ml-0 md:w-full">                        
+                                            <button                          
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center self-start rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700" 
+                                            >
+                                                ACC
+                                            </button>             
+                                            <p class="size-s heading ui w-[80%] self-end">Financial Accounting <br />Theory</p>
+                                        </div>
+                                        <p class="size-xs text ui">Mr. Vincent</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                            src="public/images/img_rectangle_339.png"
+                                            alt="userimage"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] mt-[9px] flex w-[81%] gap-[5px] self-start md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center self-start rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%] self-end">Management Information<br />System</p>
+                                        </div>
+                                        <p class="size-xs text ui">Dr. Kate Ene</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h5 class="size-lg heading ui mt-[47px] !text-pink-900">200 Level</h5>
+                              <div class="mt-2 grid grid-cols-4 gap-[42px] self-stretch md:grid-cols-2 sm:grid-cols-1">
+                                <div class="flex w-full flex-col bg-pink-900 pb-[31px] sm:pb-5">
+                                    <div class="flex flex-col items-start gap-[7px]">
+                                        <img
+                                            src="public/images/img_rectangle_261.png"
+                                            alt="microeconomicsi"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-[9px] flex items-start gap-[5px] md:ml-0">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >	
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui">Micro Economics</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                            src="public/images/img_rectangle_264.png"
+                                            alt="image"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-2.5 mt-[13px] flex items-start gap-1 self-start md:ml-0">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui">Principles of Auditing</p>
+                                        </div>
+                                        <p class="size-xs text ui">Dr. Bobby Nwankwo</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-2.5">
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                          src="public/images/img_rectangle_267.png"
+                                          alt="image"
+                                          class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-2.5 mt-[13px] flex w-[81%] gap-1 self-start md:ml-0 md:w-full">
+                                          <button
+                                            class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                          >
+                                            ACC
+                                          </button>
+                                          <p class="size-s heading ui w-[80%]">Introduction to Cost<br />Accounting</p>
+                                        </div>
+                                        <p class="size-xs text ui">Dr. Desmond Obani</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-[9px]">
+                                    <div class="flex flex-col items-start">
+                                        <img                      
+                                            src="public/images/img_rectangle_270.png"                      
+                                            alt="image"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        /> 
+                                        <div class="ml-2.5 mt-[13px] flex w-[84%] gap-1 md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[80%]">Intermediate and <br />Financial Accounting</p>
+                                        </div>
+                                        <p class="size-xs text ui ml-[46px] md:ml-0">Dr. Agu C. I</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-2.5">
+                                    <div class="flex flex-col items-start">
+                                        <img
+                                            src="public/images/img_rectangle_273.png"
+                                            alt="image"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-2.5 mt-[13px] flex w-[79%] gap-1 md:ml-0 md:w-full">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[79%]">Taxation Laws and <br />Accounts</p>
+                                        </div>
+                                        <p class="size-xs text ui ml-[46px] md:ml-0">Prof. Oliver</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-2.5">
+                                    <div class="flex flex-col items-center">
+                                        <img
+                                            src="public/images/img_rectangle_276.png"
+                                            alt="image"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="mt-[13px] flex self-stretch">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui w-[84%]">Computer Application <br />and Accounting Packages</p>
+                                        </div>
+                                        <p class="size-xs text ui ml-[45px] self-start md:ml-0">Mr. Vincent</p>
+                                    </div>
+                                </div>
+                                <div class="flex w-full flex-col bg-pink-900 pb-[27px] sm:pb-5">
+                                    <div class="flex flex-col items-start gap-[13px]">
+                                        <img
+                                            src="public/images/img_rectangle_279.png"
+                                            alt="image"
+                                            class="h-[224px] w-full object-cover md:h-auto"
+                                        />
+                                        <div class="ml-2.5 flex items-start gap-[3px] md:ml-0">
+                                            <button
+                                                class="flex h-[32px] min-w-[32px] flex-row items-center justify-center rounded-[10px] bg-red-A700 px-1.5 text-center text-[9px] font-semibold text-white-A700"                      
+                                            >
+                                                ACC
+                                            </button>
+                                            <p class="size-s heading ui">Statistics</p>                    
+                                        </div>                  
+                                    </div>                
+                                </div>                
+                                <p class="size-xs text ui w-full">Mr. Ejike Ugwu</p>                
+                                <p class="size-xs text ui w-full">Dr. Igwe Joseph</p>                
+                                <p class="size-xs text ui w-full">Dr. Igwe Joseph</p>              
+                            </div>            
+                        </div>          
+                    </div>          
+                    <footer class="mt-[43px] flex items-start justify-end bg-lime-800 p-[39px] sm:p-5">            
+                        <div class="mb-[17px] mr-[18px] flex w-[69%] flex-col items-start gap-[29px] md:w-full">              
+                            <p class="size-md text ui mr-[13px] w-[62%] self-end text-right !text-white-A700 md:mr-0 md:w-full">                
+                                Address: Caritas University Amorji-Nike Emene, Enugu<br />Contacts 08063589115, 07085308771 07014431183,                
+                                08075834681<br />For detailed contact visit<br />info@caritasuni.edu.ng enquiries@caritasuni.edu.ng              
+                            </p>              
+                            <div class="ml-[33px] flex items-end self-stretch md:ml-0"></div>              
+                            <p class="size-s text ui text-justify !text-white-A700">                
+                                ©Caritas University Amorji-Nike Enugu. All Right Reserved 2024              
+                            </p>            
+                        </div>          
+                    </footer>        
+                </div>      
+            </div>
+        </div>
+    </body>
+</html>
+                                        
+
+
+
+
+                  
+                            
+
+                    
+
+
+
+                            
+                                
+                            
+                
+         
+                                                                                        
+                                           
+                    
+
+                                        
+
+
+
+
+                                    
+                                      
+                                      
+                                        
+                                        
+                                      
+                
+                                          
+                                      
+                                        
+                    
+                    
+                        
+                        
+
+                            
+                          
+                          
+                        
+                          
+                          
+    
+                      
+                            
+                              
+      
+      
+                                    
+                                    
+                                      
+                                        
+                
+                

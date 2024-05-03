@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[type="text"],
+input:where(:not([type])),
+[type="email"],
+[type="url"],
+[type="password"],
+[type="number"],
+[type="date"],
+[type="datetime-local"],
+[type="month"],
+[type="search"],
+[type="tel"],
+[type="time"],
+[type="week"],
+[multiple],
+textarea,
+select {
+appearance: none;
+background-color: transparent;
+border-color: unset;
+border-width: 0;
+border-radius: unset;
+padding: unset;
+font-size: unset;
+line-height: unset;
+}
+
+/* Override default focus colors for tailwindcss-forms https://github.com/tailwindlabs/tailwindcss- */
+[type="text"]:focus,
+[type="email"]:focus,
+[type="url"]:focus,
+[type="password"]:focus,
+[type="number"]:focus,
+[type="date"]:focus,
+[type="search"]:focus,
+[type="checkbox"]:focus,
+[type="radio"]:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+ --tw-ring-color: transparent;
+ border-color: transparent;
+}
+@layer components {
+/*-----------------------------------
+Text CSS
+-------------------------------------*/
+.ui.text.size-xs {
+    @apply text-[13px] font-normal;
+}
+
+.ui.text.size-s {
+    @apply text-base font-normal;
+}
+
+.ui.text.size-md {
+    @apply text-lg font-normal;
+}
+
+ui.text {
+    @apply text-blue_gray-100 font-inter; 
+}
+    
+    /*--------------------
+    Heading CSS
+------------------------------------*/
+.ui.heading.size-3x1 {
+    @apply text-2xl font-bold md:text-[22px];
+}
+
+.ui.heading.size-2x1 {
+    @apply text-[22px] font-semibold;
+}
+    
+.ui.heading.size-5x1 {    
+    @apply text-[28px] font-bold md:text-[26px] sm:text-2x1;
+}
+    
+.ui.heading.size-x1 {
+    @apply text-[21px] font-bold;
+    }
+    
+.ui.heading.size-4x1 {    
+    @apply text-[26px] font-bold md:text-2x1 sm:text-[22px];
+}
+    
+.ui.heading.size-7x1 {  
+    @apply text-[64px] font-extrabold md:text-5x1;
+}
+
+.ui.heading.size-6x1 {
+    @apply text-4x1 font-bold md:text-[34px] sm:text-[32px];
+}
+
+.ui.heading.size-s {
+    @apply text-[13px] font-semibold;
+}
+
+.ui.heading.size-md {
+    @apply text-[15px] font-semibold;
+}
+
+.ui.heading.size-8x1 {
+    @apply text-[88px] font-bold md:text-5x1;
+}
+
+.ui.heading.size-xs {
+    @apply text-[9px] font-semibold;
+}
+
+.ui.heading.size-lg {
+    @apply text-xl font-semibold;
+}
+
+.ui.heading {
+    @apply text-white-A700 font-inter; }
+}
+
+/*------------------------------------------
+Container CSS
+--------------------------------------------*/
+.container-xs {
+    @apply w-full mx-auto max-w-[959px]
+}
+
+.container-sm{
+    @apply w-full mx-auto max-w-[1352px]
+}
